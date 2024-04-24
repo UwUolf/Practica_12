@@ -1,0 +1,74 @@
+/* Comentario*/
+
+:root {
+  --color-black: rgb(0, 0, 0);
+  --font-size: 30px;
+  --background: rgb(228, 113, 122);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  color: white;
+  background-color: darkred ;
+  font-size: 16px;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img, video, iframe{
+  max-width: 100%;
+}
+
+
+
+a{
+  color: black;
+}
+a:hover{
+  color: white;
+  background-color: black;
+}
+
+table{
+  width: 100%;
+}
+
+.fs-30 {
+  font-size: var(--font-size);
+}
+.fs-25{
+  font-size: 25px;
+}
+
+
+.gray{
+  color: grey;
+}
+.black{
+  color: var(--color-black);
+}
+.red{
+  color: lightcoral;
+}
+
+.txt-center{
+  text-align: center;
+}
+.txt-justify{
+  text-align: justify;
+}
+.txt-right{
+  text-align: right;
+}
+
+.bg-red{
+  background-color: var(--background);
+}
+.bg-gray{
+  background-color: grey;
+}
